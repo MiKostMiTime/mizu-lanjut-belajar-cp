@@ -1,24 +1,24 @@
-# 📅 Log Minggu 1 — Sorting, Binary Search, Two Pointers, Sliding Window
+# 📅 Log Minggu 1 — Rekursi, Tipe Data, Array, String, Linear Search
 
 **Tanggal:** [Tanggal Mulai] s/d [Tanggal Selesai]  
-**Fase:** Fase 1 — Pemanasan & Pendalaman  
-**Target:** 8+ soal CSES Sorting & Searching
+**Fase:** Fase 0 — Fondasi Pemrograman  
+**Target:** 8+ soal CSES Introductory + TLX
 
 ---
 
-## Senin — Sorting Lanjutan
+## Senin — Konsep Rekursi
 
-**Topik:** Sorting (custom comparator, coordinate compression)  
-**Video:** Errichto — Sorting tutorial
+**Topik:** Konsep rekursi (base case, recursive case), Fungsi rekursi (factorial, fibonacci)  
+**Video:** William Fiset — Recursion
 
 ### Coret-coretan
-- [ ] Trace merge sort untuk array 8 elemen di kertas
+- [ ] Trace pohon rekursi fib(5), hitung total pemanggilan
 
 ### Soal Latihan
 | # | Platform | Soal | Status | Waktu | Catatan |
 |---|---|---|---|---|---|
-| 1 | CSES | [Distinct Numbers](https://cses.fi/problemset/task/1621) | ⬜ | — | |
-| 2 | CSES | [Apartments](https://cses.fi/problemset/task/1084) | ⬜ | — | |
+| 1 | CSES | [Apple Division](https://cses.fi/problemset/task/1623) | ⬜ | — | Rekursi brute-force |
+| 2 | TLX TOKI | Training Gate — Rekursi dasar | ⬜ | — | |
 
 ### Pelajaran
 [Isi setelah selesai]
@@ -28,19 +28,19 @@
 
 ---
 
-## Selasa — Binary Search
+## Selasa — Rekursi Lanjutan & Divide-and-Conquer
 
-**Topik:** Binary Search on array & Binary Search on answer  
-**Video:** William Fiset — Binary Search
+**Topik:** Tower of Hanoi, fungsi matematis rekursif, Divide-and-conquer intro  
+**Video:** Errichto — Recursion & D&C
 
 ### Coret-coretan
-- [ ] Trace BS di array [1,3,5,7,9], cari nilai 7 — gambar lo/hi/mid tiap step
+- [ ] Trace Tower of Hanoi 3 disk, gambar langkah-langkah
 
 ### Soal Latihan
 | # | Platform | Soal | Status | Waktu | Catatan |
 |---|---|---|---|---|---|
-| 1 | CSES | [Ferris Wheel](https://cses.fi/problemset/task/1090) | ⬜ | — | |
-| 2 | CSES | [Concert Tickets](https://cses.fi/problemset/task/1091) | ⬜ | — | |
+| 1 | CSES | [Apple Division](https://cses.fi/problemset/task/1623) | ⬜ | — | Coba pendekatan D&C |
+| 2 | TLX TOKI | Training Gate — soal rekursi | ⬜ | — | |
 
 ### Pelajaran
 [Isi setelah selesai]
@@ -50,19 +50,19 @@
 
 ---
 
-## Rabu — Two Pointers
+## Rabu — Tipe Data & Array
 
-**Topik:** Two Pointers (sorted array, opposite ends)  
-**Video:** NeetCode — Two Pointers
+**Topik:** Tipe data primitif (int, long long, double, char, bool), Array 1D & 2D  
+**Video:** William Fiset — Data Structures
 
 ### Coret-coretan
-- [ ] Trace two pointers di [1,2,3,4,5], target sum 6 — gambar pointer L dan R tiap langkah
+- [ ] Gambar array 2D 3×4, trace akses baris/kolom
 
 ### Soal Latihan
 | # | Platform | Soal | Status | Waktu | Catatan |
 |---|---|---|---|---|---|
-| 1 | CSES | [Sum of Two Values](https://cses.fi/problemset/task/1640) | ⬜ | — | |
-| 2 | CSES | [Maximum Subarray Sum II](https://cses.fi/problemset/task/1644) | ⬜ | — | |
+| 1 | CSES | [Missing Number](https://cses.fi/problemset/task/1083) | ⬜ | — | |
+| 2 | CSES | [Repetitions](https://cses.fi/problemset/task/1069) | ⬜ | — | |
 
 ### Pelajaran
 [Isi setelah selesai]
@@ -72,19 +72,19 @@
 
 ---
 
-## Kamis — Sliding Window
+## Kamis — String & Operasinya
 
-**Topik:** Sliding Window (fixed & variable size)  
-**Video:** NeetCode — Sliding Window
+**Topik:** String (panjang, substring, compare, concatenation, karakter per indeks)  
+**Video:** NeetCode — String Problems
 
 ### Coret-coretan
-- [ ] Trace sliding window max di [1,3,-1,-3,5,3], k=3 — gambar state window tiap step
+- [ ] Trace operasi string: substr, find, reverse pada "HELLO"
 
 ### Soal Latihan
 | # | Platform | Soal | Status | Waktu | Catatan |
 |---|---|---|---|---|---|
-| 1 | CSES | [Playlist](https://cses.fi/problemset/task/1141) | ⬜ | — | |
-| 2 | CSES | [Towers](https://cses.fi/problemset/task/1073) | ⬜ | — | |
+| 1 | CSES | [Palindrome Reorder](https://cses.fi/problemset/task/1755) | ⬜ | — | |
+| 2 | Codeforces | Soal string rating 800 | ⬜ | — | |
 
 ### Pelajaran
 [Isi setelah selesai]
@@ -94,18 +94,18 @@
 
 ---
 
-## Jumat — Mixed Practice + Mini Contest
+## Jumat — Linear Search & Mixed Practice
 
-**Topik:** Review semua topik Minggu 1 + virtual contest  
-**Aktivitas:** Codeforces Virtual Div.2 A-B
+**Topik:** Linear Search, pencarian pada array/string, mixed practice  
+**Video:** William Fiset — Linear Search
 
 ### Coret-coretan
-- [ ] Gambar semua pola Minggu 1 di 1 lembar kertas: BS, Two Ptr, Sliding Window
+- [ ] Trace linear search di array [3,7,1,9,4], cari 9
 
-### Contest
+### Contest / Mixed Practice
 | Contest | Hasil | Waktu | Catatan |
 |---|---|---|---|
-| CF Virtual Div.2 | [A: AC/WA, B: AC/WA] | [total waktu] | |
+| Codeforces A-B rating 800 | [AC/WA] | [total waktu] | |
 
 ### Pelajaran Minggu Ini
 [Tulis insight terbesar dari Minggu 1]
@@ -118,15 +118,17 @@
 |---|---|
 | Total soal dikerjakan | / 8 |
 | Total AC | / 8 |
-| Video ditonton | / 4 |
-| Contest | / 1 |
+| Video ditonton | / 5 |
 
 ### Checklist Minggu 1
-- [ ] Bisa implement sorting dengan custom comparator
-- [ ] Bisa binary search on answer
-- [ ] Bisa two pointers untuk sorted array
-- [ ] Bisa sliding window fixed & variable size
-- [ ] Selesaikan minimal 8 soal CSES Sorting & Searching
+- [ ] Paham konsep rekursi (base case, recursive case)
+- [ ] Bisa trace pohon rekursi fibonacci & factorial
+- [ ] Bisa Tower of Hanoi secara rekursif
+- [ ] Paham tipe data primitif & kapan pakai long long
+- [ ] Bisa manipulasi array multidimensi (2D)
+- [ ] Bisa operasi string dasar (substr, find, reverse, dll.)
+- [ ] Bisa linear search pada array & string
+- [ ] Selesaikan minimal 8 soal CSES Introductory + TLX
 
 ### Target Minggu 2
-Topik: Matematika Diskrit (GCD, Sieve, Modular Arithmetic, Kombinatorika)
+Topik: Stack & Queue, Binary Heap, Sorting Dasar (Bubble, Insertion), Divide-and-Conquer

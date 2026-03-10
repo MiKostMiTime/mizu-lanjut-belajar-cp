@@ -2,7 +2,7 @@
 
 > **Target:** Menguasai semua algoritma dasar OSN Informatika sebelum Juni 2026  
 > **Jadwal:** 1.5 jam/hari × 5x/minggu = 7.5 jam/minggu  
-> **Status:** 🟢 Aktif — Fase 1 Sedang Berjalan
+> **Status:** 🟢 Aktif — Fase 0 Sedang Berjalan
 
 ---
 
@@ -10,7 +10,7 @@
 
 | Dokumen | Deskripsi |
 |---|---|
-| 📅 [ROADMAP.md](docs/ROADMAP.md) | Roadmap 12 minggu berbasis silabus OSN Informatika |
+| 📅 [ROADMAP.md](docs/ROADMAP.md) | Roadmap 13 minggu (3 bulan) berbasis silabus OSN Informatika (IOI Syllabus) |
 | 💻 [NEOVIM-SETUP.md](docs/NEOVIM-SETUP.md) | Tutorial migrasi CLion → Neovim untuk CP |
 | 📚 [RESOURCES.md](docs/RESOURCES.md) | Kumpulan sumber belajar gratis |
 | 📝 [Log Belajar](logs/README.md) | Template & catatan progress harian |
@@ -21,25 +21,28 @@
 
 ## 📊 Progress Tracker
 
-### Fase 1: Pemanasan & Pendalaman (Minggu 1–3)
-- [ ] Minggu 1 — Sorting, Binary Search, Two Pointers, Sliding Window
-- [ ] Minggu 2 — Matematika Diskrit (GCD/LCM, Sieve, Modular Arithmetic, Kombinatorika)
-- [ ] Minggu 3 — Prefix Sum, Greedy Algorithms
+### Fase 0: Fondasi Pemrograman (Minggu 1–2)
+- [ ] Minggu 1 — Rekursi, Tipe Data Primitif, Array (multidimensi), String, Linear Search
+- [ ] Minggu 2 — Stack & Queue, Binary Heap, Sorting Dasar (Bubble, Insertion), Divide-and-Conquer
 
-### Fase 2: Graf & Struktur Data (Minggu 4–7)
-- [ ] Minggu 4 — BFS, DFS, Connected Components, Topological Sort
-- [ ] Minggu 5 — Shortest Path (Dijkstra, Bellman-Ford, Floyd-Warshall)
-- [ ] Minggu 6 — MST (Kruskal, Prim) & DSU
-- [ ] Minggu 7 — Monotonic Stack/Queue, Priority Queue, Set/Map tricks
+### Fase 1: Pencarian, Pengurutan Lanjutan & Strategi (Minggu 3–5)
+- [ ] Minggu 3 — Sorting Lanjutan (Quicksort, Merge sort, Heapsort), Binary Search, Two Pointers, Sliding Window
+- [ ] Minggu 4 — Matematika Diskrit (GCD/LCM, Sieve, Modular Arithmetic, Kombinatorika)
+- [ ] Minggu 5 — Prefix Sum, Greedy, Complete Search (Brute-force & Pruning), Backtracking
 
-### Fase 3: Dynamic Programming (Minggu 8–10)
-- [ ] Minggu 8 — DP Dasar (Coin Change, Knapsack, LIS, LCS)
-- [ ] Minggu 9 — DP Lanjutan (Grid DP, Bitmask DP, DP on Tree)
-- [ ] Minggu 10 — DP Mixed Practice + Soal OSN Arsip
+### Fase 2: Graf & Tree (Minggu 6–9)
+- [ ] Minggu 6 — Representasi Graf, BFS, DFS, Keterhubungan, Topological Sort
+- [ ] Minggu 7 — Shortest Path (Dijkstra, Bellman-Ford, Floyd-Warshall)
+- [ ] Minggu 8 — MST (Kruskal, Prim) & DSU
+- [ ] Minggu 9 — Tree Dasar (Rooted Tree), LCA (Binary Lifting), Monotonic Stack/Queue
 
-### Fase 4: Struktur Data Lanjutan & Simulasi (Minggu 11–12)
-- [ ] Minggu 11 — Fenwick Tree/BIT, Segment Tree, Lazy Propagation
-- [ ] Minggu 12 — Simulasi OSN Full (3 sesi simulasi + review)
+### Fase 3: Dynamic Programming (Minggu 10–11)
+- [ ] Minggu 10 — DP Dasar (Coin Change, Knapsack, LIS, LCS) + DP Mixed Practice
+- [ ] Minggu 11 — DP Lanjutan (Grid DP, Bitmask DP, DP on Tree) + Soal OSN Arsip
+
+### Fase 4: Lanjutan, Geometri & Simulasi (Minggu 12–13)
+- [ ] Minggu 12 — Fenwick Tree/BIT, Segment Tree, Lazy Propagation, Set/Map Tricks
+- [ ] Minggu 13 — Geometri Dasar (Garis, Segitiga, Lingkaran, Koordinat, Euclidean, Pythagoras, Convex Hull) + Simulasi OSN
 
 ---
 
