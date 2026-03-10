@@ -81,7 +81,7 @@ Salin template ini setiap hari belajar:
 
 ---
 
-## 🗓️ Progress Tracker (Minggu 1–12)
+## 🗓️ Progress Tracker (Minggu 1–13)
 
 Salin dan update setiap minggu:
 
@@ -90,22 +90,23 @@ Salin dan update setiap minggu:
 
 | Minggu | Topik | Status | Soal AC | Notes |
 |---|---|---|---|---|
-| Minggu 1 | Sorting, Binary Search, Two Pointers, Sliding Window | ⬜ Belum | 0 | |
-| Minggu 2 | Matematika Diskrit (GCD, Sieve, Modular Arithmetic) | ⬜ Belum | 0 | |
-| Minggu 3 | Prefix Sum, Greedy | ⬜ Belum | 0 | |
-| Minggu 4 | BFS, DFS, Connected Components, Topological Sort | ⬜ Belum | 0 | |
-| Minggu 5 | Shortest Path (Dijkstra, Bellman-Ford, Floyd-Warshall) | ⬜ Belum | 0 | |
-| Minggu 6 | MST (Kruskal, Prim) & DSU | ⬜ Belum | 0 | |
-| Minggu 7 | Monotonic Stack/Queue, Priority Queue, Set/Map | ⬜ Belum | 0 | |
-| Minggu 8 | DP Dasar (Coin Change, Knapsack, LIS, LCS) | ⬜ Belum | 0 | |
-| Minggu 9 | DP Lanjutan (Grid DP, Bitmask DP, DP on Tree) | ⬜ Belum | 0 | |
-| Minggu 10 | DP Mixed Practice + Soal OSN Arsip | ⬜ Belum | 0 | |
-| Minggu 11 | Fenwick Tree/BIT, Segment Tree, Lazy Propagation | ⬜ Belum | 0 | |
-| Minggu 12 | Simulasi OSN Full | ⬜ Belum | 0 | |
+| Minggu 1 | Rekursi, Tipe Data, Array, String, Linear Search | ⬜ Belum | 0 | |
+| Minggu 2 | Stack & Queue, Binary Heap, Sorting Dasar, Divide-and-Conquer | ⬜ Belum | 0 | |
+| Minggu 3 | Sorting Lanjutan, Binary Search, Two Pointers, Sliding Window | ⬜ Belum | 0 | |
+| Minggu 4 | Matematika Diskrit (GCD, Sieve, Modular Arithmetic) | ⬜ Belum | 0 | |
+| Minggu 5 | Prefix Sum, Greedy, Complete Search, Backtracking | ⬜ Belum | 0 | |
+| Minggu 6 | Representasi Graf, BFS, DFS, Topological Sort | ⬜ Belum | 0 | |
+| Minggu 7 | Shortest Path (Dijkstra, Bellman-Ford, Floyd-Warshall) | ⬜ Belum | 0 | |
+| Minggu 8 | MST (Kruskal, Prim) & DSU | ⬜ Belum | 0 | |
+| Minggu 9 | Tree Dasar, LCA, Monotonic Stack/Queue | ⬜ Belum | 0 | |
+| Minggu 10 | DP Dasar (Coin Change, Knapsack, LIS, LCS) + Mixed Practice | ⬜ Belum | 0 | |
+| Minggu 11 | DP Lanjutan (Grid, Bitmask, Tree DP) + Soal OSN Arsip | ⬜ Belum | 0 | |
+| Minggu 12 | Fenwick Tree/BIT, Segment Tree, Lazy Propagation | ⬜ Belum | 0 | |
+| Minggu 13 | Geometri Dasar + Simulasi OSN | ⬜ Belum | 0 | |
 
 **Legend:** ⬜ Belum | 🟡 Sedang | ✅ Selesai | 🔄 Perlu Review
 
-**Total Soal AC:** 0 / target 120+  
+**Total Soal AC:** 0 / target 130+  
 **Rating Codeforces saat ini:** [N]  
 **Rating target (Juni 2026):** 1700+
 ```

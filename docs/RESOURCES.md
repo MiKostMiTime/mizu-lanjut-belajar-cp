@@ -64,41 +64,76 @@
 
 ## 🎯 Playlist per Topik (Terstruktur)
 
-### Sorting & Searching
-- [William Fiset — Sorting Algorithms](https://www.youtube.com/c/WilliamFiset-videos) — Merge Sort, Quick Sort, Heap Sort
-- [NeetCode — Binary Search playlist](https://www.youtube.com/c/NeetCode) — 20+ soal binary search
+### Rekursi & Divide-and-Conquer
+- [William Fiset — Recursion](https://www.youtube.com/c/WilliamFiset-videos) — Konsep rekursi, base case, recursive case
+- [Errichto — Recursion & D&C](https://www.youtube.com/c/Errichto) — Divide-and-conquer, merge sort sebagai D&C
+- [USACO Guide — Recursion](https://usaco.guide/) — Complete search, subset & permutasi generation
 
-### Graf
-- [William Fiset — Graph Theory Algorithms](https://www.youtube.com/playlist?list=PLDV1Zeh2NRsDGO4--qE8yH72HFL1Km93P) — Playlist lengkap 25+ video
+### Sorting & Searching
+- [William Fiset — Sorting Algorithms](https://www.youtube.com/c/WilliamFiset-videos) — Bubble Sort, Insertion Sort, Merge Sort, Quick Sort, Heap Sort
+- [NeetCode — Binary Search playlist](https://www.youtube.com/c/NeetCode) — 20+ soal binary search
+- [William Fiset — Linear Search](https://www.youtube.com/c/WilliamFiset-videos) — Pencarian dasar
+
+### Struktur Data Dasar
+- [William Fiset — Stack](https://www.youtube.com/c/WilliamFiset-videos) — LIFO, implementasi, aplikasi
+- [William Fiset — Queue](https://www.youtube.com/c/WilliamFiset-videos) — FIFO, implementasi, deque
+- [William Fiset — Priority Queue / Heap](https://www.youtube.com/c/WilliamFiset-videos) — Binary heap, min-heap, max-heap
+
+### Complete Search & Backtracking
+- [Errichto — Brute Force](https://www.youtube.com/c/Errichto) — Complete search, subset generation
+- [Colin Galen — Backtracking](https://www.youtube.com/c/ColinGalen) — N-Queens, pruning, constraint propagation
+- [USACO Guide — Complete Search](https://usaco.guide/) — Brute-force & strategi pruning
+
+### Graf & Tree
+- [William Fiset — Graph Theory Algorithms](https://www.youtube.com/playlist?list=PLDV1Zeh2NRsDGO4--qE8yH72HFL1Km93P) — Playlist lengkap 25+ video (representasi graf, BFS, DFS, shortest path, MST)
+- [William Fiset — Trees](https://www.youtube.com/c/WilliamFiset-videos) — Rooted tree, LCA, tree algorithms
+- [William Fiset — LCA (Lowest Common Ancestor)](https://www.youtube.com/c/WilliamFiset-videos) — Binary lifting technique
 - [Algorithms Live! — Graph Algorithms](https://www.youtube.com/c/AlgorithmsLive)
 
 ### Dynamic Programming
 - [Errichto — DP Tutorial series](https://www.youtube.com/c/Errichto) — DP dari dasar ke lanjutan
 - [NeetCode — DP playlist](https://www.youtube.com/c/NeetCode) — Pattern-based DP
+- [Colin Galen — DP on Tree](https://www.youtube.com/c/ColinGalen) — Subtree DP, rerooting
 - [AtCoder DP Contest](https://atcoder.jp/contests/dp) — 26 soal DP klasik (kerjakan paralel!)
 
-### Struktur Data
+### Struktur Data Lanjutan
 - [William Fiset — Data Structures](https://www.youtube.com/c/WilliamFiset-videos) — Segment Tree, BIT, dll
 - [Colin Galen — Advanced Data Structures](https://www.youtube.com/c/ColinGalen)
+
+### Geometri
+- [Algorithms Live — Computational Geometry](https://www.youtube.com/c/AlgorithmsLive) — Geometri dasar & convex hull
+- [William Fiset — Computational Geometry](https://www.youtube.com/c/WilliamFiset-videos) — Convex hull, line intersection
+- [CP-Algorithms — Geometry](https://cp-algorithms.com/) — Referensi lengkap: titik, garis, segmen, cross product, convex hull
 
 ---
 
 ## 🗂️ Sumber per Fase Belajar
 
-### Fase 1: Pemanasan (Sorting, Searching, Math, Greedy)
+### Fase 0: Fondasi (Rekursi, Tipe Data, Struktur Data Dasar, Sorting Dasar)
+| Sumber | Topik | Link |
+|---|---|---|
+| CP Handbook | Bab 1-4 (Dasar-dasar) | [cses.fi/book/book.pdf](https://cses.fi/book/book.pdf) |
+| USACO Guide | Bronze — Recursion, Complete Search | [usaco.guide/bronze](https://usaco.guide/bronze) |
+| TLX TOKI | Training Gate — Rekursi, Struktur Data Dasar | [tlx.toki.id](https://tlx.toki.id/) |
+| CSES | Introductory Problems (19 soal) | [cses.fi/problemset/list/](https://cses.fi/problemset/list/) |
+| William Fiset | Recursion, Stack, Queue, Heap, Sorting | [YouTube](https://www.youtube.com/c/WilliamFiset-videos) |
+
+### Fase 1: Pencarian, Pengurutan Lanjutan & Strategi (Sorting, Searching, Math, Greedy, Complete Search)
 | Sumber | Topik | Link |
 |---|---|---|
 | CSES | Sorting & Searching (75 soal) | [cses.fi/problemset/list/](https://cses.fi/problemset/list/) |
 | CSES | Mathematics (31 soal) | [cses.fi/problemset/list/](https://cses.fi/problemset/list/) |
-| USACO Guide | Bronze/Silver | [usaco.guide/bronze](https://usaco.guide/bronze) |
+| USACO Guide | Bronze/Silver — Complete Search, Sorting, Binary Search | [usaco.guide/bronze](https://usaco.guide/bronze) |
 | CP Handbook | Bab 1-8 | [cses.fi/book/book.pdf](https://cses.fi/book/book.pdf) |
+| CP-Algorithms | Backtracking, Brute-force | [cp-algorithms.com](https://cp-algorithms.com/) |
 
-### Fase 2: Graf & Struktur Data
+### Fase 2: Graf & Tree
 | Sumber | Topik | Link |
 |---|---|---|
 | CSES | Graph Algorithms (36 soal) | [cses.fi/problemset/list/](https://cses.fi/problemset/list/) |
+| CSES | Tree Algorithms (16 soal) | [cses.fi/problemset/list/](https://cses.fi/problemset/list/) |
 | William Fiset | Graph Theory Playlist | [YouTube Playlist](https://www.youtube.com/playlist?list=PLDV1Zeh2NRsDGO4--qE8yH72HFL1Km93P) |
-| CP-Algorithms | Graphs section | [cp-algorithms.com/graph](https://cp-algorithms.com/graph/) |
+| CP-Algorithms | Graphs & Trees section (termasuk LCA) | [cp-algorithms.com/graph](https://cp-algorithms.com/graph/) |
 | CP Handbook | Bab 9-16 | [cses.fi/book/book.pdf](https://cses.fi/book/book.pdf) |
 
 ### Fase 3: Dynamic Programming
@@ -109,12 +144,15 @@
 | CP-Algorithms | DP section | [cp-algorithms.com/dynamic_programming](https://cp-algorithms.com/dynamic_programming/) |
 | CP Handbook | Bab 7 (DP) | [cses.fi/book/book.pdf](https://cses.fi/book/book.pdf) |
 
-### Fase 4: Struktur Data Lanjutan
+### Fase 4: Struktur Data Lanjutan & Geometri
 | Sumber | Topik | Link |
 |---|---|---|
 | CSES | Range Queries (19 soal) | [cses.fi/problemset/list/](https://cses.fi/problemset/list/) |
 | CP-Algorithms | Data Structures | [cp-algorithms.com/data_structures](https://cp-algorithms.com/data_structures/) |
-| William Fiset | Segment Tree, BIT | [YouTube](https://www.youtube.com/c/WilliamFiset-videos) |
+| CP-Algorithms | Geometry (titik, garis, convex hull, dll.) | [cp-algorithms.com/geometry](https://cp-algorithms.com/geometry/) |
+| William Fiset | Segment Tree, BIT, Convex Hull | [YouTube](https://www.youtube.com/c/WilliamFiset-videos) |
+| Algorithms Live | Computational Geometry playlist | [YouTube](https://www.youtube.com/c/AlgorithmsLive) |
+| CP Handbook | Bab 29-30 (Geometry) | [cses.fi/book/book.pdf](https://cses.fi/book/book.pdf) |
 
 ---
 
