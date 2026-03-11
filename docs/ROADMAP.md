@@ -50,12 +50,14 @@ Coret-coretan (pen & paper) adalah **senjata rahasia** yang sering diremehkan:
 
 > **Bangun fondasi kuat** — rekursi, tipe data primitif, array multidimensi, string, dan pencarian dasar
 
+> ⚡ **Sudah mahir di topik ini?** Lewati ke **[Jalur Akselerasi Minggu 1](#-jalur-akselerasi-minggu-1-jika-sudah-mahir)** di bawah agar tidak membuang waktu!
+
 | Hari | Topik | Video (YouTube) | Coret-coretan | Soal Latihan | Editorial |
 |---|---|---|---|---|---|
 | **Senin** | Konsep rekursi (base case, recursive case), Fungsi rekursi sederhana (factorial, fibonacci) | [William Fiset — Recursion](https://www.youtube.com/c/WilliamFiset-videos) | Trace pohon rekursi fib(5), hitung total pemanggilan | CSES: [Introductory Problems](https://cses.fi/problemset/list/) — Apple Division (rekursi brute-force); [TLX TOKI Training Gate](https://tlx.toki.id/) — Rekursi dasar | Catat: "base case, recursive case, return value" |
 | **Selasa** | Rekursi lanjutan (Tower of Hanoi, fungsi matematis rekursif), Divide-and-conquer intro | [Errichto — Recursion & D&C](https://www.youtube.com/c/Errichto) | Trace Tower of Hanoi 3 disk, gambar langkah-langkah | CSES: Introductory — Apple Division (rekursif brute-force); TLX TOKI — soal rekursi | Catat: "pecah masalah besar jadi submasalah kecil" |
 | **Rabu** | Tipe data primitif (int, long long, double, char, bool), Array 1D & multidimensi | [William Fiset — Data Structures](https://www.youtube.com/c/WilliamFiset-videos) | Gambar array 2D 3×4, trace akses baris/kolom | CSES: Introductory — Missing Number, Repetitions; [Codeforces](https://codeforces.com/problemset) A rating 800 | Catat: "int vs long long, kapan overflow?" |
-| **Kamis** | String & operasinya (panjang, substring, compare, concatenation, karakter per indeks) | [NeetCode — String Problems](https://www.youtube.com/c/NeetCode) | Trace operasi string: substr, find, reverse pada "HELLO" | CSES: Introductory — Palindrome Reorder, String Algorithms — String Matching (easy) | Catat: operasi string STL C++ |
+| **Kamis** | String & operasinya (panjang, substring, compare, concatenation, karakter per indeks) | [William Fiset — String Algorithms](https://www.youtube.com/c/WilliamFiset-videos); [CP-Algorithms — String basics](https://cp-algorithms.com/string/string-hashing.html) | Trace operasi string: substr, find, reverse pada "HELLO" | CSES: Introductory — Palindrome Reorder, String Algorithms — String Matching (easy) | Catat: operasi string STL C++ |
 | **Jumat** | Linear Search, Pencarian pada array/string, Mixed practice | [William Fiset — Linear Search](https://www.youtube.com/c/WilliamFiset-videos) | Trace linear search di array [3,7,1,9,4], cari 9 | [Codeforces](https://codeforces.com/problemset) A-B rating 800; TLX TOKI — soal pencarian dasar | Baca editorial soal yang stuck |
 
 **Checklist Minggu 1:**
@@ -67,6 +69,31 @@ Coret-coretan (pen & paper) adalah **senjata rahasia** yang sering diremehkan:
 - [ ] Bisa operasi string dasar (substr, find, reverse, dll.)
 - [ ] Bisa linear search pada array & string
 - [ ] Selesaikan minimal 8 soal CSES Introductory + TLX
+
+---
+
+### 🚀 Jalur Akselerasi Minggu 1 (Jika Sudah Mahir)
+
+> Gunakan jalur ini **hanya jika** kamu sudah benar-benar mahir di semua topik Minggu 1 standar (rekursi, tipe data, array, string, linear search). Jalur ini memampatkan materi Minggu 2 + awal Minggu 3 ke dalam satu minggu agar kamu tidak membuang waktu dan bisa langsung maju ke fase berikutnya.
+
+> **Semua sumber di jalur ini 100% gratis!**
+
+| Hari | Topik | Video (YouTube) | Coret-coretan | Soal Latihan | Editorial |
+|---|---|---|---|---|---|
+| **Senin** | Stack (LIFO, implement manual & `std::stack`, balancing bracket) & Queue (FIFO, `std::queue`, deque) | [William Fiset — Stack](https://www.youtube.com/c/WilliamFiset-videos); [William Fiset — Queue](https://www.youtube.com/c/WilliamFiset-videos) | Trace push/pop stack [3,1,4,1,5]; trace enqueue/dequeue queue [A,B,C,D], gambar state keduanya | CSES: [Introductory Problems](https://cses.fi/problemset/list/); [Codeforces](https://codeforces.com/problemset?tags=data+structures) rating 800-1000 | Catat: "LIFO vs FIFO — kapan pakai masing-masing?" |
+| **Selasa** | Binary Heap & Priority Queue (min-heap, max-heap, `std::priority_queue`) | [William Fiset — Priority Queue](https://www.youtube.com/c/WilliamFiset-videos) | Gambar heap tree: insert [5,3,8,1,2], trace heapify; bandingkan min-heap vs max-heap | CSES: [Sorting and Searching](https://cses.fi/problemset/list/) — Towers, Traffic Lights | Catat: "insert O(log n), extract (min/max) O(log n) — jauh lebih cepat dari linear search!" |
+| **Rabu** | Sorting: Bubble, Insertion (trace manual) + Merge Sort (D&C) + `std::sort` dengan custom comparator | [Errichto — Sorting](https://www.youtube.com/c/Errichto); [William Fiset — Merge Sort](https://www.youtube.com/c/WilliamFiset-videos) | Trace bubble sort [5,3,8,1,2] per pass; trace merge sort split-merge di pohon rekursi | CSES: Distinct Numbers, Apartments, Ferris Wheel | Catat: "std::sort O(n log n) — gunakan ini di contest, implement manual hanya untuk belajar" |
+| **Kamis** | Binary Search on array & Binary Search on answer (monotonic function) | [William Fiset — Binary Search](https://www.youtube.com/c/WilliamFiset-videos); [USACO Guide — Binary Search](https://usaco.guide/silver/binary-search) | Trace BS di array [1,3,5,7,9], cari 7; trace BS on answer untuk soal "minimasi/maksimasi" | CSES: Concert Tickets, Sum of Two Values; [Codeforces](https://codeforces.com/problemset?tags=binary+search) rating 1000-1200 | Catat pola wajib: `lo, hi, mid, kondisi` — ini jauh lebih cepat dari linear search O(n)! |
+| **Jumat** | Complete Search & Backtracking dasar (generate semua subset, permutasi, pruning) | [Errichto — Brute Force & Complete Search](https://www.youtube.com/c/Errichto); [USACO Guide — Complete Search](https://usaco.guide/bronze/intro-complete) | Trace subset generation {1,2,3} (8 subset); trace permutasi 3 elemen; gambar pohon backtracking | CSES: Apple Division; [Codeforces](https://codeforces.com/problemset?tags=brute+force) rating 1000-1300 | Catat: "2^n subset, n! permutasi — pahami batas feasible-nya!" |
+
+**Checklist Jalur Akselerasi Minggu 1:**
+- [ ] Bisa implement stack & queue dari nol (manual) dan pakai `std::stack`, `std::queue`
+- [ ] Paham binary heap & bisa pakai `std::priority_queue` (min & max)
+- [ ] Bisa implement bubble sort, insertion sort, merge sort secara manual
+- [ ] Bisa pakai `std::sort` dengan custom comparator
+- [ ] Bisa binary search on array **dan** binary search on answer
+- [ ] Bisa generate semua subset (2^n) dan permutasi (n!) dengan backtracking
+- [ ] Selesaikan minimal 8 soal CSES (Introductory + Sorting and Searching awal)
 
 ---
 

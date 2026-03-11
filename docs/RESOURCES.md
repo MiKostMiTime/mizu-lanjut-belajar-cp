@@ -48,7 +48,7 @@
 | **Errichto** | CP strategy, algoritma, tutorial | Penjelasan sangat clear, tips contest nyata |
 | **Colin Galen** | Penjelasan mendalam per topik | Sangat bagus untuk DP, graf, analisis kompleksitas |
 | **William Fiset** | Tutorial algoritma visual | Visualisasi grafis sangat membantu pemahaman |
-| **NeetCode** | LeetCode + pola soal | Pattern recognition yang bagus, visual |
+| **NeetCode** | LeetCode + pola soal | Channel YouTube-nya gratis & bagus untuk pattern recognition; ⚠️ catatan: materi & latihan soal di website neetcode.io **berbayar** — cukup tonton YouTube-nya saja |
 
 ### Channel Tambahan
 
