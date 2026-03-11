@@ -49,7 +49,7 @@ Dengan kapasitas 7: hari pertama mengangkut paket [3,2,2]=7, hari kedua mengangk
 
 ### Penjelasan Contoh 2
 
-Dengan kapasitas 11: [1,2,3,4]=10, [5,6]=11, [7]=7, total 3 hari. Dengan kapasitas 10: [1,2,3,4]=10, [5]=5, [6,7]=13>10 tidak bisa, sehingga [5,6]=11>10 tidak bisa, [6]=6, [7]=7, membutuhkan lebih dari 3 hari. Sehingga kapasitas minimum adalah 11.
+Dengan kapasitas 11: hari ke-1 mengangkut [1,2,3,4]=10, hari ke-2 mengangkut [5,6]=11, hari ke-3 mengangkut [7]=7. Total 3 hari, kapasitas maksimum per hari = 11. Dengan kapasitas 10: hari ke-1 [1,2,3,4]=10, hari ke-2 [5]=5 (5+6=11>10 tidak muat), hari ke-3 [6]=6 (6+7=13>10 tidak muat), hari ke-4 [7]=7. Total 4 hari > 3, sehingga kapasitas 10 tidak cukup. Kapasitas minimum adalah 11.
 
 ## Batasan
 

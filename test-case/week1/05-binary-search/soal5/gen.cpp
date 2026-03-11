@@ -16,10 +16,11 @@ int main(int argc, char* argv[]) {
         total += l[i];
     }
 
-    // K = random fraction of total, capped at 1e7
-    long long k = (long long)(rng() % total) / 2 + 1;
-    k = min(k, (long long)10000000);
-    k = max(k, 1LL);
+    // K = random value in [1, min(total/2, 1e7)] using proper distribution
+    long long k_max = min(total / 2 + 1, (long long)10000000);
+    k_max = max(k_max, 1LL);
+    uniform_int_distribution<long long> dist_k(1, k_max);
+    long long k = dist_k(rng);
 
     cout << n << " " << k << "\n";
     for (int i = 0; i < n; i++) {
