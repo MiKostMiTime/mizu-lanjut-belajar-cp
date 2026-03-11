@@ -1,0 +1,11 @@
+10
+Zara 11.11
+Yudi 10.00
+Xian 11.11
+Wulan 12.34
+Vino 10.00
+Umi 12.34
+Tono 11.11
+Sari 10.00
+Rudi 12.34
+Qori 10.99
