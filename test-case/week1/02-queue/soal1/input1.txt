@@ -1,0 +1,4 @@
+3
+Andi 0
+Budi 1
+Cici 1

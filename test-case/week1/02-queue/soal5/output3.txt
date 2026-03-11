@@ -1,0 +1,5 @@
+DokumenA 3
+DokumenB 10
+DokumenC 12
+DokumenD 17
+DokumenE 18
