@@ -1,0 +1,10 @@
+1 Sari 10.00
+2 Vino 10.00
+3 Yudi 10.00
+4 Qori 10.99
+5 Tono 11.11
+6 Xian 11.11
+7 Zara 11.11
+8 Rudi 12.34
+9 Umi 12.34
+10 Wulan 12.34

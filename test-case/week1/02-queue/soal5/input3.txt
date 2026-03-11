@@ -1,0 +1,6 @@
+5
+DokumenA 3 3
+DokumenB 7 3
+DokumenC 2 3
+DokumenD 5 3
+DokumenE 1 3

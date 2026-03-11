@@ -1,0 +1,11 @@
+10
+VISIT start.com
+BACK
+VISIT page1.com
+VISIT page2.com
+BACK
+FORWARD
+VISIT page3.com
+FORWARD
+CURRENT
+BACK

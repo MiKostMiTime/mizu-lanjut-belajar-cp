@@ -1,0 +1,6 @@
+FotoWisuda 1
+UlanganMTK 4
+UlanganIPA 8
+SuratResmi 15
+Makalah 30
+Proposal 50
